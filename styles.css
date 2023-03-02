@@ -5,8 +5,67 @@ header {
     list-style: none;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     
 }
+
+.hero {
+    background-color: #1F2937;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+
+}
+
+.hero-cta {
+
+    
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    box-sizing: border-box;
+    
+    
+    
+    
+}
+
+.hero-cta  .test {
+
+color: white;
+font-size: 48px;
+font-weight:bolder;
+text-align: left;
+margin: 0;
+
+}
+
+.hero-cta  .snippet {
+
+    color: white;
+    font-size: 18px;
+    text-align: left;
+    
+    
+    }
+
+    .hero-button {
+
+
+color: black;  
+width: 200px;
+background-color: rgb(241, 198, 3);
+font-size: 18px;
+font-weight: 700;
+padding: 12px;
+
+
+    }
 
 header a {
 
@@ -27,4 +86,6 @@ font-size: 18px;
 body {
 
     margin: 0;
+    display: flex;
+    flex-direction: column;
 }
