@@ -1,0 +1,30 @@
+header {
+
+    background-color: #1F2937;
+    padding: 32px 250px 32px 250px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+header a {
+
+color: white;
+text-decoration: none;
+font-size: 18px;
+
+}
+
+.header-links {
+
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+    align-items: center;
+}
+
+body {
+
+    margin: 0;
+}
