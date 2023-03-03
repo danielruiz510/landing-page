@@ -158,7 +158,50 @@ justify-content: center;
 
 
 
+.quote {
 
+    background-color: #e5e7eb;
+    display: flex;
+flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 70px;
+
+}
+
+.full-quote {
+
+    width: 1200px;
+    
+
+}
+
+.quote .full-quote {
+
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    text-align: center;
+
+}
+
+.person {
+width: 1200px;
+
+
+}
+
+.quote .person {
+
+
+    font-size: 24px;
+    font-weight: bold;
+    text-align: right;
+    
+    
+}
 
 
 
